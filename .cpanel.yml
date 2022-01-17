@@ -2,10 +2,10 @@
 deployment:
   tasks:
     - export DEPLOYPATH=/home/stepllng/public_html/
-    - /bin/cp index.html $DEPLOYPATH
-    - /bin/cp index.js $DEPLOYPATH
-    - /bin/cp main.css $DEPLOYPATH
-    - /bin/cp -R assets $DEPLOYPATH
-    - /bin/cp -R helpers $DEPLOYPATH
-    - /bin/cp -R pages $DEPLOYPATH
-    - /bin/cp -R projects $DEPLOYPATH
+    - /bin/cp /home/stepllng/repos/index.html $DEPLOYPATH
+    - /bin/cp /home/stepllng/repos/index.js $DEPLOYPATH
+    - /bin/cp /home/stepllng/repos/main.css $DEPLOYPATH
+    - /bin/cp -R /home/stepllng/repos/assets $DEPLOYPATH
+    - /bin/cp -R /home/stepllng/repos/helpers $DEPLOYPATH
+    - /bin/cp -R /home/stepllng/repos/pages $DEPLOYPATH
+    - /bin/cp -R /home/stepllng/repos/projects $DEPLOYPATH

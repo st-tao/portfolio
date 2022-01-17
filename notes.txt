@@ -1,0 +1,5 @@
+Cool Hamburger Menu UI:
+https://tamino-martinius.github.io/ui-snippets-menu-animations/
+
+Morphing Fullscreen Hamburger UI
+https://www.cssscript.com/demo/morphing-fullscreen-hamburger-menu-pure-htmlcss/
