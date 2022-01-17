@@ -3,3 +3,10 @@ https://tamino-martinius.github.io/ui-snippets-menu-animations/
 
 Morphing Fullscreen Hamburger UI
 https://www.cssscript.com/demo/morphing-fullscreen-hamburger-menu-pure-htmlcss/
+
+Parallax Scrolling Effect:
+https://www.w3schools.com/howto/howto_css_parallax.asp
+
+Info:
+cPanel GitHub deployment:
+https://ridbay.medium.com/how-to-deploy-your-github-repositories-to-cpanel-the-easier-way-16ec6e6cc7ee
