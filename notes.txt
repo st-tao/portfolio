@@ -14,6 +14,10 @@ https://ridbay.medium.com/how-to-deploy-your-github-repositories-to-cpanel-the-e
 Eventual Integration with GSAP ScrollTrigger:
 https://greensock.com/docs/v3/Plugins/ScrollTrigger
 
+Inspiration:
+https://www.yichenxie.com/
+http://www.vidazhang.com/
+
 To-Do:
 Update other projects
 Logo Design

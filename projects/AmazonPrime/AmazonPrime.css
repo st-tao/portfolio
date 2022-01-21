@@ -43,18 +43,16 @@ ul {
 #Project-TOC {
     position: sticky;
     top: 4rem;
+    max-height: 80vh;
+    margin-bottom: 10px;
+    overflow:scroll;
+    -webkit-overflow-scrolling: touch;
 }
 #Project-TOC > .active {
     background: var(--salmon);
     border: none;
 }
 
-.list-group{
-    max-height: 80vh;
-    margin-bottom: 10px;
-    overflow:scroll;
-    -webkit-overflow-scrolling: touch;
-}
 /* li > a {
     font-family: 'Montserrat', sans-serif;
     font-size: 1rem; 
