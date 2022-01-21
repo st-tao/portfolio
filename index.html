@@ -12,9 +12,10 @@
         <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
         
         <link rel="stylesheet" type="text/css" href="main.css">
+        <link rel="stylesheet" type="text/css" href="helpers/flip-card.css">
     </head>
     <body>
-        <nav class="navbar navbar-expand-md sticky-top">
+        <nav class="navbar navbar-expand-md fixed-top">
             <div class="container-fluid">
                 <a class="navbar-brand" href="index.html">
                     <img src="assets/logo.png" width = "50" alt="Stephen Tao">
@@ -50,15 +51,59 @@
         </nav>
         
         <div id="welcome-msg">
-            <h1 class="display-1 font-weight-bold"><b>Welcome!</b></h1><br>
+            <h1 class="display-1 font-weight-bold"><b>Welcome!</b></h1>
+            <div class="text-center">
+                <img class="img-fluid" src="assets/me.jpg" 
+                alt="Picture of Me" width="400">
+            </div>
             I'm Stephen Tao: UX Designer, performer, marketer.
         </div>
         
-        <h1>I'm a curious designer interested in business, hcii, and more.</h1>
-        Feel free to take a look at some of my work and don't be afraid to get in touch! :)
+        <h1>I'm an interdisciplinary designer with the consumer knowledge and 
+            creative mindset to design engaging interfaces.</h1>
         <p>
-            - Stephen
+            I'm a sophomore at Carnegie Mellon University majoring in business 
+            administration with an intended additional major in interdisciplinary 
+            human-computer interaction. Currently, I'm looking for a UX Design role. 
+            My past experiences in marketing gave me new perspectives on consumer 
+            behavior, which led me to the world of HCI. As I discovered the creative 
+            applications of my theatrical and musical passions, I knew that UX 
+            would be the perfect opportunity for me to explore, iterate on, and 
+            solve problems through design. 
         </p>
+        <p>
+            Feel free to take a look at some of my projects below and/or contact me 
+            if you'd like to chat about HCI and UX design!
+        </p>
+        <div class="list-group-horizontal row justify-content-md-center">
+
+            <div id="AmazonPrime" class="flip-card m-3 p-0 col-auto list-group-item" style="width: 20rem; height: 20rem">
+                <a href="projects/AmazonPrime/AmazonPrime.html">
+                    <div class="flip-card-inner m-0 p-0" style="width: 20rem; height: 20rem">
+                        <div class="card flip-card-front">
+                            <img src="projects/AmazonPrime/assets/AmazonPrime_thumbnail.png" class="w-100 m-auto" alt="Amazon Health Thumbnail">
+                        </div>
+                        <div class="card flip-card-back">
+                            <div class="card-body m-auto align-items-center d-flex flex-column justify-content-center">
+                                <h2 class="card-title">Amazon Prime Student</h2>
+                                <p class="card-text">
+                                    During a case competition for Amazon
+                                    Prime Student, I prototyped a gamified holistic health 
+                                    interface for college students.
+                                </p>
+                                <ul class="list-group-horizontal row d-flex justify-content-center p-0 m-0">
+                                    <li class="list-group-item col-auto rounded border-0 m-1">UX Design (Figma)</li>
+                                    <li class="list-group-item col-auto rounded border-0 m-1">Project Management</li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                </a>
+            </div>
+
+        </div>
+        
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/matter-js/0.18.0/matter.min.js" integrity="sha512-5T245ZTH0m0RfONiFm2NF0zcYcmAuNzcGyPSQ18j8Bs5Pbfhp5HP1hosrR8XRt5M3kSRqzjNMYpm2+it/AUX/g==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
         <script src="https://code.jquery.com/jquery-3.5.1.min.js" integrity="sha256-9/aliU8dGd2tb6OSsuzixeV4y/faTqgFtohetphbbj0=" crossorigin="anonymous"></script>
         <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script>
         <script src="index.js"></script>

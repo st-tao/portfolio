@@ -23,12 +23,13 @@
     font-size: 1rem; 
 }
 
-header > div{
+header > div {
    text-align: center;
 }
 h2.sticky-top {
     background: white;
     padding: 0.25rem;
+    top: 4rem;
 }
 #skills {
     font-family: 'Montserrat', sans-serif;
@@ -41,7 +42,7 @@ ul {
 
 #Project-TOC {
     position: sticky;
-    top: 100px;
+    top: 4rem;
 }
 #Project-TOC > .active {
     background: var(--salmon);
