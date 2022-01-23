@@ -22,5 +22,27 @@ To-Do:
 Update other projects
 Logo Design
 Fix work nav bar (esp. at small window sizes) with project pop-up into smooth 
-integrated menu
+integrated menu (Off Campus for smaller sizes: https://getbootstrap.com/docs/5.0/components/offcanvas/)
 
+About me: Timeline!
+ - Clubs!
+    - AMA: Case Competition Committee
+    - The Treblemakers: Vocal Percussionist/Technical Director
+    - SnS: Behind Closed Doors
+    - DFA: Finance Chair
+    - TWE: PR Director
+    - NPP: Performance Group
+    - SnS: 24hr Playfest
+    - 180 Degrees Consulting: Student Consultant
+    - Lean On Me: Supporter
+    - SnS: Little Shop of Horrors
+    - AMA: Vice President
+    - The Treblemakers: Vice President
+    - SnS: Rocky Horror MD
+    - UXA
+    - SnS: Tisbert Open Show
+    - 180DC: Project Lead
+    - SnS: Cabaret: Everything in it's Time
+ - Work
+    - Blissful US: Python Tutor
+    - Resident Assistant

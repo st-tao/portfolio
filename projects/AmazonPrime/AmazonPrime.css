@@ -18,9 +18,21 @@
     font-family: 'Montserrat', sans-serif;
     font-size: 1.25rem; 
 }
+#Project-TOC {
+    position: sticky;
+    top: 4rem;
+    max-height: 80vh;
+    margin-bottom: 10px;
+    overflow:scroll;
+    -webkit-overflow-scrolling: touch;
+}
 #Project-TOC .list-group-item {
     font-family: 'Montserrat', sans-serif;
     font-size: 1rem; 
+}
+#Project-TOC > .active {
+    background: var(--salmon);
+    border: none;
 }
 
 header > div {
@@ -35,30 +47,6 @@ h2.sticky-top {
     font-family: 'Montserrat', sans-serif;
     font-size: 1.25rem; 
 }
-
 ul { 
     margin:0; 
-  }
-
-#Project-TOC {
-    position: sticky;
-    top: 4rem;
-    max-height: 80vh;
-    margin-bottom: 10px;
-    overflow:scroll;
-    -webkit-overflow-scrolling: touch;
 }
-#Project-TOC > .active {
-    background: var(--salmon);
-    border: none;
-}
-
-/* li > a {
-    font-family: 'Montserrat', sans-serif;
-    font-size: 1rem; 
-    color: black;
-    text-decoration: none;
-}
-li > a:hover {
-    color: var(--salmon);
-} */
