@@ -17,6 +17,7 @@
 #ribbon .list-group-item {
     font-family: 'Montserrat', sans-serif;
     font-size: 1.25rem; 
+    background-color:rgba(0, 0, 0, 0);
 }
 #Project-TOC {
     position: sticky;
@@ -31,14 +32,25 @@
     font-size: 1rem; 
 }
 #Project-TOC > .active {
-    background: var(--salmon);
+    background: var(--amazon-prime-student-blue);
     border: none;
 }
-h2.sticky-top {
-    background: white;
-    padding: 0.25rem;
-    top: 4rem;
+/* header stuff */
+@media (min-width: 768px) {
+    .section-header {
+        background-color: rgba(0, 0, 0, 0);
+        padding: 0.25rem;
+    }
 }
+@media (max-width: 767.98px) {
+    .section-header {
+        background-color: white;
+        position: sticky;
+        padding: 0.25rem;
+        top: 4rem;
+    }
+}
+
 #skills {
     font-family: 'Montserrat', sans-serif;
     font-size: 1.25rem; 

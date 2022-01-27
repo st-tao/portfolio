@@ -13,6 +13,9 @@
     --salmon: #FF9C9C;
     --blue: #BDD9FF;
     --lilac: #d6b9ec;
+    /* Case Study Colors */
+    --amazon-prime-student-blue: #00A8E1;
+    --home-depot-orange: #E76C2D;
     font-size: 20px;
 }
 #welcome-msg {
@@ -23,21 +26,26 @@ h1 {
     font-family: 'Montserrat', sans-serif;
     font-size: 2rem;
     margin-top: 1rem;
+    position: relative;
+
 }
 h2 {
     font-family: 'Montserrat', sans-serif;
     font-size: 1.75rem;
     margin-top:0.75rem;
+    position: relative;
 }
 h3 {
     font-family: 'Catamaran', sans-serif;
     font-size: 1.5rem;
     margin-top:0.5rem;
+    position: relative;
 }
 h4 {
     font-family: 'Catamaran', sans-serif;
     font-size: 1.25rem;
     margin-top:0.25rem;
+    position: relative;
 }
 body {
     font-family: 'Catamaran', sans-serif;
@@ -45,6 +53,7 @@ body {
     padding: 4rem 0.5rem 0.5rem 0.5rem;
     margin: 0.25rem 2rem 0 2rem;
     background: #ffffff;
+    position: relative;
 }
 
 /* Navagation */
@@ -64,29 +73,39 @@ body {
     cursor: pointer;
 }
 .nav-link {
-    margin-right: 1em !important;
+    margin-right: 1em;
     background-color: #FFFFFF;
 }
 .nav-link:hover {
-    color: var(--salmon) !important;
+    color: var(--salmon);
 }
 
 .dropdown-item:hover {
-    color: #FFFFFF;
+    color: white;
     background-color: var(--salmon);
 }
+
 .navbar-collapse {
     justify-content: flex-end;
 }
 
-/* .circle {
-    background: #FFD700;
-    border: 0.1875em solid #0F1C3F;
-    border-radius: 50%;
+/* footer css*/
+footer {
+    padding: 0.5rem 0;
+    margin: 0;
+}
+footer p {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 1rem;
+    margin: 0; 
+}
+footer a {
+    color: black;
+    padding: 0.25rem;
+}
 
-    position:fixed;
-
-    box-shadow: 0.375em 0.375em 0 0 rgba(15, 28, 63, 0.125);
-    height: 5em;
-    width: 5em;
-  } */
+#background-img {
+    z-index: -1;
+    min-height: 100vw;
+    min-width: 100vh;
+}

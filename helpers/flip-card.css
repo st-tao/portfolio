@@ -49,9 +49,9 @@
 }
 
 #AmazonPrime .flip-card-back {
-    background-color: #00A8E1;
+    background-color: var(--amazon-prime-student-blue);
 }
 
 #HomeDepot .flip-card-back {
-    background-color: #E76C2D;
+    background-color: var(--home-depot-orange);
 }
