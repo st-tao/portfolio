@@ -22,7 +22,5 @@ ready(() => {
         console.log(nodeLi);
         nodeLi.insertBefore(separatorIconAfter.cloneNode(), nodeLi.children[0]);
     }
-
-
     // document.querySelector(".header").style.height = window.innerHeight + "px";
 })

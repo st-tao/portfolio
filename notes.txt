@@ -17,6 +17,7 @@ https://greensock.com/docs/v3/Plugins/ScrollTrigger
 Inspiration:
 https://www.yichenxie.com/
 http://www.vidazhang.com/
+https://zteoh.github.io/index.html
 
 To-Do:
 Update other projects

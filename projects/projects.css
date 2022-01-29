@@ -21,15 +21,17 @@
 }
 #Project-TOC {
     position: sticky;
-    top: 4rem;
-    max-height: 80vh;
+    top: 7.5rem;
+    min-width: 7rem;
+    max-height: 70vh;
     margin-bottom: 10px;
-    overflow:scroll;
+    border-radius: 0.5rem;
+    overflow: scroll;
     -webkit-overflow-scrolling: touch;
 }
 #Project-TOC .list-group-item {
     font-family: 'Montserrat', sans-serif;
-    font-size: 1rem; 
+    font-size: 0.75rem; 
 }
 #Project-TOC > .active {
     background: var(--amazon-prime-student-blue);
