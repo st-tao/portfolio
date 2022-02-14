@@ -16,8 +16,14 @@
     /* Case Study Colors */
     --amazon-prime-student-blue: #00A8E1;
     --home-depot-orange: #E76C2D;
+    --meranti-darkteal: #34656D;
+    --paymate-blue: #64BDB9;
     font-size: 20px;
 }
+/* makes sure scrollspy will work */
+html {
+    scroll-padding-top: 4rem; /* height of header */
+  }
 #welcome-msg {
     font-family: 'Montserrat', sans-serif;
     font-size: 1.5rem;
@@ -51,7 +57,7 @@ body {
     font-family: 'Catamaran', sans-serif;
     font-size: 1rem;
     margin: 0;
-    padding-top: 4rem;
+    padding-top: 3rem;
     background: #ffffff;
     position: relative;
 }
@@ -89,33 +95,15 @@ body {
     justify-content: flex-end;
 }
 
-/* footer css*/
-footer {
-    padding: 0.5rem 0;
-    margin: 0;
-}
-footer p {
-    font-family: 'Montserrat', sans-serif;
-    font-size: 1rem;
-    margin: 0; 
-}
-footer a {
-    color: black;
-    padding: 0.25rem;
+.body-content{
+    padding-top:64px;
+    margin-top:-64px;
 }
 
 #background-img {
     z-index: -1;
     min-height: 100vw;
     min-width: 100vh;
-}
-
-#side-spots {
-    position: fixed;
-    top: 4.2rem;
-    left: 1rem;
-    z-index: -0.5;
-    width: 4rem;
 }
 
 /* jarallax */
@@ -140,3 +128,23 @@ footer a {
     padding-right: min(4rem, 10%);
 }
 
+.navbar-brand {
+    padding: 0;
+}
+
+/* footer css*/
+footer {
+    padding: 0.5rem 1rem;
+    margin: 0;
+    text-align: center;
+}
+footer p {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 0.8rem;
+    margin: 0; 
+}
+footer a {
+    color: black;
+    font-size:1.25rem;
+    padding: 0.25rem;
+}

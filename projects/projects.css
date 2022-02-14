@@ -1,28 +1,16 @@
-/* Formatting the icons in the top ribbon */
-.iconBefore {
-    font-size: 0.5rem;
-    position: absolute;
-    top: 50%;
-    left: 0%;
-    transform: translate(-50%, -50%);
-}
-.iconAfter {
-    font-size: 0.5rem;
-    position: absolute;
-    top: 50%;
-    left: 100%;
-    transform: translate(-50%, -50%);
+#ribbon table {
+    margin: 1rem;
+    max-width: 25rem;
+    margin-left: auto;
+    margin-right: auto;
 }
 
-#ribbon .list-group-item {
-    font-family: 'Montserrat', sans-serif;
-    font-size: 1.25rem; 
-    background-color:rgba(0, 0, 0, 0);
-}
 #Project-TOC {
-    position: sticky;
+    position: fixed;
+    opacity: 0;
+    left: 2.5rem;
     top: 7.5rem;
-    min-width: 7rem;
+    width: 8rem;
     max-height: 70vh;
     margin-bottom: 10px;
     border-radius: 0.5rem;
@@ -43,20 +31,25 @@
         background-color: rgba(0, 0, 0, 0);
         padding: 0.25rem;
     }
+    #body-content {
+        margin-left: 9rem;
+    }
 }
 @media (max-width: 767.98px) {
-    .section-header {
+    /* .section-header {
         background-color: white;
         position: sticky;
         padding: 0.25rem;
         top: 4rem;
+    } */
+    #body-content {
+        margin-left: 2rem;
     }
+
 }
 
 #skills {
     font-family: 'Montserrat', sans-serif;
     font-size: 1.25rem; 
 }
-ul { 
-    margin:0; 
-}
+

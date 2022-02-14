@@ -55,3 +55,11 @@
 #HomeDepot .flip-card-back {
     background-color: var(--home-depot-orange);
 }
+
+#Meranti .flip-card-back {
+  background-color: var(--meranti-darkteal);
+}
+
+#PayMate .flip-card-back {
+  background-color: var(--paymate-blue);
+}
