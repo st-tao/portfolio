@@ -22,7 +22,6 @@ https://zteoh.github.io/index.html
 To-Do:
 Update other projects
 Make sure cache won't fuck up other people's view of my website
-Logo Design
 Fix work nav bar (esp. at small window sizes) with project pop-up into smooth 
 integrated menu (Off Campus for smaller sizes: https://getbootstrap.com/docs/5.0/components/offcanvas/)
 Amazon Prime: Style Guide + Timeline

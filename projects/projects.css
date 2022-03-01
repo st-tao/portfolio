@@ -22,7 +22,6 @@
     font-size: 0.75rem; 
 }
 #Project-TOC > .active {
-    background: var(--amazon-prime-student-blue);
     border: none;
 }
 /* header stuff */
