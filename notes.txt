@@ -20,9 +20,10 @@ http://www.vidazhang.com/
 https://zteoh.github.io/index.html
 
 To-Do:
-Update other projects
+Index.html: would be cool if I had typography heavy scrollable page with text like "Award-winning Vocal Percussionist. CMU HCII. Passionate Designer. etc."
 Make sure cache won't fuck up other people's view of my website
 Fix work nav bar (esp. at small window sizes) with project pop-up into smooth 
+Make Home Page okay on mobile
 integrated menu (Off Campus for smaller sizes: https://getbootstrap.com/docs/5.0/components/offcanvas/)
 All projects: Branding/Style guide
 Amazon Prime: Timeline
